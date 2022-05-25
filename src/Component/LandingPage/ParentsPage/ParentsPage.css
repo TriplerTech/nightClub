@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.landingPageWraper{
+    background-color: #0D0527;
+    color: #fff;
+    padding-bottom: 10px;
+    /* height: 100vh; */
+}

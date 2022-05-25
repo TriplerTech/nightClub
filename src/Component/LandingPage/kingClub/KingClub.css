@@ -1,0 +1,54 @@
+.king-Nightclub-wraper{
+    margin-top:109px ;
+    background-color: #0f0d17be;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 1;
+}
+.king-logo{
+    position: relative;
+    z-index: 2;
+}
+.king-logo::before{
+    position: absolute;
+    left: 0;
+    content: "";
+    width: 30%;
+    height: 60%;
+    border-radius: 50%;
+    width: 200px;
+    height: 300px;
+    background: rgba(181, 19, 149, 0.423);
+    filter: blur(100px);
+    z-index: -1;
+}
+.clubimg{
+    position: relative;
+    z-index: 2;
+}
+.clubimg::after{
+    position: absolute;
+    content: "";
+    right:0px;
+    bottom: 0px;
+    width: 50px;
+    height: 50px;
+    background: #07f5d5fc;
+    z-index: 1;
+    border-radius: 50%;
+    filter: blur(50px);
+}
+.king-Nightclub-wraper::after{
+    position: absolute;
+    content: "";
+    right:0px;
+    bottom: -100px;
+    width: 250px;
+    height: 400px;
+    background: #ff05f743;
+    /* border-radius: 50%; */
+    filter: blur(100px);
+    z-index: -2;
+}
