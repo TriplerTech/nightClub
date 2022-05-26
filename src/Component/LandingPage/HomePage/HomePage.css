@@ -1,14 +1,15 @@
 .video-intro{
     padding-top: 82px;
 }
-.video-intro h1{
+.mainHeading{
     font-family: "Brownstd";
     text-transform: uppercase;
-    font-size: 35px
+    font-size: 40px;
 }
-.video-intro h1 span{
-    color: #FFC508;
-    
+.subHeading{
+    font-family: "Brownstd";
+    text-transform: uppercase;
+    font-size: 36px
 }
 .video-wraper{
     display: flex;
@@ -58,8 +59,10 @@
     border: none;
     margin-top: 15px;
 }
-
-.video-wraper::before{
+.effect-perple{
+    position: relative;
+}
+.effect-perple::before{
     position: absolute;
     left: 0;
     bottom: 0;
@@ -71,12 +74,15 @@
     transform: rotate(21.75deg);
     z-index: -1;
 }
-.video-wraper::after{
+.effect-blue{
+    position: relative;
+}
+.effect-blue::after{
     position: absolute;
     content: '';
-    width: 40%;
+    width: 300px;
     height: 40%;
-    right: 60px;
+    right: 12%;
     bottom: 30px;
     background: rgba(115, 83, 229, 0.286);
     filter: blur(50px);

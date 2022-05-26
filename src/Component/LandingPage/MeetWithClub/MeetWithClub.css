@@ -1,0 +1,20 @@
+.meetClub{
+    position: relative;
+}
+.meetClub::after{
+    position: absolute;
+    content: '';
+    width: 200px;
+    height: 200px;
+    right: 0;
+    bottom: -50px;
+    background: rgba(115, 83, 229, 0.286);
+    filter: blur(50px);
+    z-index: -1;
+}
+@media screen and (max-width:768px){
+    .reverse-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

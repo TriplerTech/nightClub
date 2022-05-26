@@ -1,0 +1,60 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* review card/// */
+  .review-card{
+     text-align: start;
+     background-color: #1E1930;
+     margin: 10px;
+     border-radius: 72px 72px 0 72px;
+     color: #eee;
+     position: relative;
+  }
+
+  .review-user{
+      width: 100% !important;
+  }
+  .coma{
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    font-size: 35px;
+    background: -webkit-linear-gradient(-90deg, #fac928, #e75100);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .swiper-pagination-bullet{
+      background-color: #fac928 !important;
+      margin-right: 10px !important;
+      margin-left: 10px !important;
+      margin-bottom: -10px !important;
+  }

@@ -40,7 +40,7 @@
     border-radius: 50%;
     filter: blur(50px);
 }
-.king-Nightclub-wraper::after{
+.after-effect::after{
     position: absolute;
     content: "";
     right:0px;
