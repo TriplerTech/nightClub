@@ -1,0 +1,51 @@
+.team-card{
+ margin: 20px 0;
+}
+.team-profile-box{
+position: relative;
+}
+.team-avater{
+    width: 150px;
+    height: 150px;
+    /* position: absolute; */
+    /* bottom: -50%; */
+    margin-bottom: -75px !important;
+   
+}
+.blank{
+height: 95px;
+background-color: #212121;
+}
+.team-des{
+ background-color: #121212;
+}
+.first-4{
+    min-height: 350px;
+}
+.teams{
+    position: relative;
+}
+.teams::before{
+    position: absolute;
+    content: '';
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    left:0;
+    top: 100px;
+    background: rgba(239, 7, 88, 0.374);
+    filter: blur(100px);
+    z-index:1;
+}
+.teamsEffect::before{
+    position: absolute;
+    content: '';
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    right:50px;
+    bottom: 0px;
+    background: rgba(24, 199, 185, 0.374);
+    filter: blur(110px);
+    z-index:1;
+}

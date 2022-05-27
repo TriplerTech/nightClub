@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 import logo from '../../assets/logo.png'
 import './Navigation.css'
 const Navigation = () => {
@@ -23,7 +24,9 @@ const Navigation = () => {
                         <Nav.Link className='mx-md-1' href="#deets">Home</Nav.Link>
                         <Nav.Link className='mx-md-1' href="#deets">TEAM VISION</Nav.Link>
                         <Nav.Link className='mx-md-1' href="#deets">FOUNDER STORY</Nav.Link>
-                        <Nav.Link className='mx-md-1' href="#deets">MINIT</Nav.Link>
+                        <Nav.Link className='mx-md-1' href="#deets">
+                           <NavLink to="/mint"> MINIT</NavLink> 
+                        </Nav.Link>
                         <Nav.Link className='mx-md-1' href="#deets">FIQ</Nav.Link>
                         <Nav.Link className='mx-md-1 icons' href="#deets">
                             <i class="fa-brands fa-twitter"></i></Nav.Link>

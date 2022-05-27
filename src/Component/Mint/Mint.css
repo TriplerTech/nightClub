@@ -1,0 +1,116 @@
+.minitPage{
+    background-color: #0D0527;
+    color: #fff;
+}
+.timer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.timer li{
+    height: 75px;
+    width: 90px;
+    margin: 10px;
+    background: linear-gradient(180deg, #FFC603 0%, #FF7C00 100%);
+    border-radius: 5px;
+    border: 5px solid #121212e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color:#000 ;
+    font-weight: 800;
+}
+.timer p small{
+    color: #aaa;
+}
+.timereffect{
+    position: relative;
+}
+.timereffect::after{
+    position: absolute;
+    content: "";
+    right:0;
+    bottom:0px;
+    width: 150px;
+    height: 150px;
+    background: #8503ff86;
+    z-index: 1;
+    border-radius: 50%;
+    filter: blur(80px);
+}
+.timereffect::before{
+    position: absolute;
+    content: "";
+    left:0;
+    top:50px;
+    width: 150px;
+    height: 150px;
+    background: #ff03ff63;
+    z-index: 1;
+    border-radius: 50%;
+    filter: blur(80px);
+}
+
+.chartCard{
+    background-color: #121212;
+    border-radius: 10px;
+    position: relative;
+}
+.scn-part{
+    position: absolute;
+    max-height: 350px;
+    max-width: 250px;
+    top: -150px;
+}
+.scn-part img{
+   width: 100%;
+}
+.chart-style{
+    width: 90%;
+}
+.pricing{
+    position: absolute;
+    bottom: 50px;
+}
+.space-between{
+    display: flex;
+    align-items:center;
+}
+.space-between {
+    display: flex;
+    align-items:center;
+    justify-content: end;
+}
+@media only screen and (max-width:992px) {
+    .scn-part{
+        position: relative;
+        max-height: auto;
+        max-width: 100%;
+        top:0px;
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+    }
+    .scn-part img{
+        width: 50%;
+     }
+    .pricing{
+        position: relative;
+        bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .space-between {
+        display: flex;
+        align-items:center;
+        justify-content: end;
+    }
+    .chart-style{
+        width: 80%;
+        margin-top: 30%;
+    }
+}

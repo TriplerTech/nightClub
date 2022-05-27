@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+.topPase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.dotet-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dotet-img img{
+   padding: 20px;
+   margin-top:60px;
+}
+.down{
+   padding: 20px;
+   /* padding-top: 10%; */
+   margin-top: -60px;
+}
+.parseNO1{
+    width: 80%;
+}
+.parseNO{
+    width: 16%;
+    padding-top: 30px;
+  
+}
+.ul-element{
+    text-align: left;
+}
+.ul-element li{
+    display: flex;
+    line-height: 1;
+}
+.ul-element img{
+    height: 22px !important;
+    width: 25px;
+}
+.parseNO2{
+    width: 110%;
+}
+.parseNO4{
+    width: 110%;
+}
+.desktop-visibility{
+    display: none;
+}
+@media only screen and (max-width:768px) {
+    .mobile-visibility{
+        display: none;
+    }
+    .desktop-visibility{
+        display: block;
+    }
+    .topPase{
+        justify-content: space-between !important;
+    }
+}
+.paseHeading{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Righteous', cursive;
+}

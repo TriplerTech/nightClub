@@ -23,7 +23,7 @@ const HomePage = () => {
       };
 
     return (
-        <div>
+        <div id='home'>
            <img className='img-fluid' src={banner} alt="" /> 
            <Container>
             <div className='video-intro'>
