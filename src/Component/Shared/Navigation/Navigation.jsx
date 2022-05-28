@@ -5,7 +5,7 @@ import logo from '../../assets/logo.png'
 import './Navigation.css'
 const Navigation = () => {
     return (
-        <div className='navigation'>
+        <div id='top' className='navigation'>
            <Navbar collapseOnSelect expand="lg" variant="dark" id='navbar'>
                 <Container>
                 <Navbar.Brand href="#home">
@@ -20,18 +20,17 @@ const Navigation = () => {
                     <Nav className="me-auto">            
                     </Nav>
 
-                    <Nav>
-                        <Nav.Link className='mx-md-1' href="#deets">Home</Nav.Link>
-                        <Nav.Link className='mx-md-1' href="#deets">TEAM VISION</Nav.Link>
-                        <Nav.Link className='mx-md-1' href="#deets">FOUNDER STORY</Nav.Link>
-                        <Nav.Link className='mx-md-1' href="#deets">
-                           <NavLink to="/mint"> MINIT</NavLink> 
-                        </Nav.Link>
-                        <Nav.Link className='mx-md-1' href="#deets">FIQ</Nav.Link>
-                        <Nav.Link className='mx-md-1 icons' href="#deets">
-                            <i class="fa-brands fa-twitter"></i></Nav.Link>
-                        <Nav.Link className='mx-md-1 icons' href="#deets">
-                            <i class="fa-brands fa-telegram"></i></Nav.Link>
+                    <Nav className='manu-nav'>
+                            <NavLink className='mx-md-1 items ' to='/'><span> Home </span></NavLink>
+                            <a className='mx-md-1 items' href='#team'><span>TEAM VISION </span></a>
+                            <NavLink className='mx-md-1 items' to=''><span> FOUNDER STORY </span></NavLink>
+                            <NavLink className='mx-md-1 items' to='/mint'><span> MINIT </span></NavLink>
+                            <a className='mx-md-1 items' href ='#faq'><span>FAQ </span></a>
+                            <div className='social-icons'>
+                            <NavLink className='mx-md-1  icons' to=''><span> <i class="fa-brands fa-twitter"></i> </span></NavLink>
+                            <NavLink className='mx-md-1  icons' to=''><span> <i class="fa-brands fa-telegram"></i> </span></NavLink>
+                            </div>
+                            {/* <NavLink className='mx-md-1' to=''><span> Home </span></NavLink> */}
                         
                     </Nav>
                 </Navbar.Collapse>

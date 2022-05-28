@@ -11,7 +11,7 @@ import team8 from '../../assets/teams/team8.png'
 import './Team.css'
 const Team = () => {
     return (
-        <div>
+        <div id='team'>
            <Container>
                <div className='teamsEffect king-Nightclub-wraper p-md-5'>
                    <h1 className='teams mainHeading pb-5'><span className='text-yellow'> Night King </span>Club Dream Team:</h1>

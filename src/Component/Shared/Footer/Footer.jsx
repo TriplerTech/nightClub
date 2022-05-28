@@ -30,7 +30,7 @@ const Footer = () => {
                    </Col>
                </Row>
                <Container className='mt-5 dividers'>
-                   <a href="#home"><button className='upScrool'>&#129105;</button></a>
+                   <a href="#top"><button className='upScrool'>&#129105;</button></a>
                     <hr />
                     <p>&copy; Copyright 2022 Night King Club All Rights Reserved</p>
            </Container>

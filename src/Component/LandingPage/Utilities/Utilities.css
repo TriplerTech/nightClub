@@ -58,3 +58,10 @@ text-align: left;
     padding: 8px;
     border-radius: 50%;
 }
+
+.utilites-table{
+    width: 100%;
+    display: block;
+    /* flex-direction: column; */
+    /* overflow-x: scroll; */
+}
