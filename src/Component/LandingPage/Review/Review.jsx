@@ -19,10 +19,10 @@ const Review = () => {
                 <div>
                     
                    <Swiper 
-                        // autoplay={{
-                        //     delay: 3000,
-                        //     disableOnInteraction: false,
-                        // }}
+                        autoplay={{
+                            delay: 3000,
+                            disableOnInteraction: false,
+                        }}
                         pagination={{
                             clickable: true,
                           }}

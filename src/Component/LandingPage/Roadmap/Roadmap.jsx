@@ -62,13 +62,13 @@ const Roadmap = () => {
                         </Col>
                         <Col className="col-12 col-md-5">
                           <div className='topPase mt-md-5 pt-md-3 ms-md-4'>
-                               <img className='parseNO ms-md-3 p-md-1 mt-md-5 mobile-visibility' src={p3} alt="" />
+                               <img className='parseNO parseNO3 ms-md-3 p-md-1 mt-md-5 mobile-visibility' src={p3} alt="" />
                                 <ul className='ul-element'>
                                 <p className='paseHeading'>Pase 3</p>
                                     <li><img className='img-fluid pe-2' src={check} alt="" /><p> Legendary party invitation for all top $NKG token and NFT holders </p></li>
                                     <li><img className='img-fluid pe-2' src={check} alt="" /><p> Announce second wave of partners</p></li>                        
                                 </ul>
-                                <img className='parseNO ms-3 desktop-visibility' src={mp3} alt="" />
+                                <img className='parseNO  ms-3 desktop-visibility' src={mp3} alt="" />
                             </div>
                         </Col> 
                        
@@ -102,7 +102,7 @@ const Roadmap = () => {
                         </Col>
                         <Col className="col-12 col-md-5">
                         <div className='topPase me-md-3'>
-                        <div className='ps-md-4 pb-4 pt-md-4 ms-md-3'>
+                                <div className='ps-md-4 pb-4 pt-md-4 ms-md-3'>
                                  <img className='parseNO4 mobile-visibility' src={p4} alt="" />
                                  </div>
                                 <ul className='ul-element'>
@@ -112,7 +112,7 @@ const Roadmap = () => {
                                     <li><img className='img-fluid pe-2' src={check} alt="" /> <p>Announce third wave of partners</p></li>
                                 </ul>
                                <div className='desktop-visibility'>
-                               <img className='parseNO4 ' src={mp4} alt="" />
+                               <img className='parseNO4' src={mp4} alt="" />
                                </div>
                             </div>
                         </Col>

@@ -8,7 +8,7 @@ const Navigation = () => {
         <div id='top' className='navigation'>
            <Navbar collapseOnSelect expand="lg" variant="dark" id='navbar'>
                 <Container>
-                <Navbar.Brand href="#home">
+                <Navbar.Brand href="/">
                     <div className='branding'>
                         <img className='logo' src={logo } alt="" />
                          <h1> NIGHT KING CLUB</h1>

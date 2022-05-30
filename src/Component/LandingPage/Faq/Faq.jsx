@@ -18,10 +18,14 @@ const Faq = () => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>
-              <h3 className='question'> <span>01</span> What makes Night King Club unique?</h3>   
+           <Typography
+            // expandIcon={<ExpandMoreIcon />}
+           >
+             <h3 className='question'> <span>01</span> What makes Night King Club unique?</h3>   
+             
              </Typography>
-             </AccordionSummary>
+             
+         </AccordionSummary>
              <AccordionDetails>
                <Typography className='text-start ps-md-4 ms-md-3 questionAnswer'>
                     Most NFT projects cannot sustain long term success for two reasons. First, their NFTs lack real-world utility. Second, their community lacks real-world interaction to form a strong bond. 
