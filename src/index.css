@@ -25,3 +25,13 @@ code {
   height: 25px !important;
   width: 25px !important;
 }
+.css-vubbuv{
+  color: #121212 !important;
+ background: linear-gradient(180deg, #FFC603 0%, #FF7C00 100%) !important;
+ border-radius: 24px;
+ font-weight: 500 !important;
+ border-radius: 50% !important;
+ padding: 2px !important;
+ height: 25px !important;
+ width: 25px !important;
+}
