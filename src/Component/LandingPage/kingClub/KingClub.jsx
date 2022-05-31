@@ -15,11 +15,11 @@ const KingClub = () => {
                     <Col className='col-12 col-md-7 ps-md-3 p-4 p-md-1 pe-md-3'>
                         <div className='kingClub-text text-start '>
                             <h2 className='subHeading'>
-                              <span className='text-yellow'>Night King Club:</span> an exclusive Web <br /> 3.0 Global social club
+                              <span className='text-yellow'>Night King Club:</span> an exclusive Web 3.0 Global social club
                             </h2>
                             <p className='pt-2'>
                             <p>As the Web 3.0 home for business elites and stunning models, Night King Club bridges the gap between the metaverse and the physical world. </p><br />
-                            <p>We share a passion for life and ultra-high-energy parties. Here, gorgeous models and top businessmen will share their unique talents, expertise, resources, and ALPHA. </p><br />
+                            <p>We share a passion for life and ultra-high-energy parties. Here, gorgeous models and top businessmen will share their unique talents, expertise, resources, and <span className='text-yellow'>ALPHA.</span> </p><br />
                             Whether the market is up or down, Night King Club offers a place to unwind and live life to the fullest with members who feel like family.
                             </p>
                         </div>

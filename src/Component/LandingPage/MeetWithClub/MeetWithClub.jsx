@@ -25,18 +25,21 @@ const MeetWithClub = () => {
              <Container>
               <div className='king-Nightclub-wraper p-2 p-md-5 meetClub'>
               <Row className='reverse-section'>
-                    <Col className='col-12 col-md-5 p-5 pt-md-2 king-logo'>
-                        <img className='img-fluid' src={meetImg} alt="" />
+                    <Col className='col-12 col-md-5 p-5 pt-md-2 king-logo pb-0'>
+                        <img className='img-fluid meetimg' src={meetImg} alt="" />
                     </Col>
-                    <Col className='col-12 col-md-7 ps-md-3 p-4 p-md-1 pe-md-3'>
+                    <Col className='col-12 col-md-7 ps-md-3 p-4 p-md-1 pe-md-3 pb-0'>
                         <div className='kingClub-text text-start '>
                             <h2 className='subHeading'>
                             Meet <span className='text-yellow'>Night King Club’s</span> Acclaimed Founder
                             </h2>
+                            <div className='pb-2'>
+                             <img className='img-fluid meetimg-mobile' src={meetImg} alt="" />  
+                            </div>
                             <p className='pt-2'>
                             <p>Night King Club was founded by our visionary leader, Night King. After starting with just $500, Night King built his fortune through real estate and crypto investing. He then created an empire of top nightclubs and international modeling agencies.  </p><br />
                             <p>Known as the “Godfather” in high-tier social circles, he hosted some of the most sought-after parties in Hollywood, New York, London, Seoul, Tokyo, and more. His life of adventure, top business connections, and stunning models is the envy of men worldwide. </p><br />
-                            <p>Now, Night King and his dream team are poised to deliver <br /> <span className='text-yellow'>countless exclusive member benefits</span> countless exclusive member benefits to NKG clubber holders. </p>
+                            <p>Now, Night King and his dream team are poised to deliver <br /> <span className='text-yellow'>countless exclusive member benefits</span></p>
                             </p>
                         </div>
                     </Col>
@@ -44,13 +47,14 @@ const MeetWithClub = () => {
                 </Row>
               </div>
               <Container>
-                <div className='video-wraper mt-5'>
+                <div className='video-wraper'>
                     <div className='modal-video'>
                     <img className='img-fluid' src={videoTham} alt="" />
                     <button onClick={()=>handleOpen()} className='play-thevideo-btn'><i class="fa-solid fa-play play-icon"></i></button>
                     </div>
                 </div>
-                              <Modal      
+                              <Modal    
+                              className="modal-video"  
                                 aria-labelledby="transition-modal-title"
                                 aria-describedby="transition-modal-description"
                                 open={open}
@@ -75,7 +79,7 @@ const MeetWithClub = () => {
                             </Modal>
              {/* </div> */}
              <div className='primary-text px-md-5'>
-                 <h2 className='subHeading mx-md-5 py-4'>
+                 <h2 className='subHeading mx-md-5 py-4 mt-5 pt-5'>
                  NKG metaverse - Making Waves in the Over <span className="text-yellow">$100B Nightclub</span> Industry
                  </h2>
                  <p className='px-md-5 mx-md-5 pb-4'>
@@ -85,7 +89,7 @@ const MeetWithClub = () => {
                  In NKG metaverse, you will surround yourself with gorgeous models and lifelong friends while enjoying intoxicated evenings at the top nightclub metaverse.
                  </p>
                  <p className='px-md-5 mx-md-5'>
-                   The NKG metaverse governance token $NKG can be used to purchase valuable in-metaverse NFTs or be used at our in-person events for special services ; )
+                   The NKG metaverse governance token $NKG can be used to purchase valuable in-metaverse NFTs or be used at our in-person events for special services 
                  </p>
              </div>
                 </Container>

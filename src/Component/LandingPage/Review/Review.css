@@ -45,6 +45,9 @@
       width: 100% !important;
       border-radius:50px 0 0 0px ;
   }
+  .review-slider{
+    display: flex;
+  }
   @media only screen and (max-width:992px) {
     .review-user{
      max-height: 350px !important;
@@ -56,6 +59,17 @@
     object-fit: cover;
     border-radius: 50px;
   } */
+  .review-slider{
+    flex-direction: column-reverse !important;
+  }
+  .review-card{
+    text-align: start;
+    background-color: #1E1930;
+    /* margin: 10px; */
+    border-radius: 52px 52px 0 52px;
+    color: #eee;
+    position: relative;
+ }
   }
   .coma{
     position: absolute;

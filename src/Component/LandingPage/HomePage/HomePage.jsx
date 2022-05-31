@@ -41,8 +41,8 @@ const HomePage = () => {
                 <h1 className='mainHeading'>
                     <span className='text-yellow'>It’s Time</span> to Transform Your <span className='text-yellow'>Dream Life</span> into <span>Reality</span></h1>
             </div>
-                <div className='video-wraper effect-perple effect-blue p-md-5'>
-                    <div className='modal-video p-md-5 mx-md-5 my-5 my-md-0 pb-5'>
+                <div className='video-wraper effect-perple effect-blue p-md-5 pt-md-0'>
+                    <div className=' p-md-5 mx-md-5 my-5 my-md-0 pb-5'>
                     {/* <img className='img-fluid' src={videoTham} alt="" /> */}
                     {/* <button onClick={()=>handleOpen()} className='play-thevideo-btn'><i class="fa-solid fa-play play-icon"></i></button> */}
 
@@ -78,7 +78,7 @@ const HomePage = () => {
                             {/* </Modal> */}
              {/* </div> */}
              <div className='primary-text px-5'>
-                 <p className='px-md-5 '>
+                 <p className='px-md-5 shadow-in-text'>
                     Are you ready to have unforgettable experiences alongside the stunning models, crypto whales, and elite businessmen? It’s time to start living life as if you’re in a movie.
                  </p>
                  <button className='long-button'>Elevate Your Life. Get Your NKG Clubber NFT NOW</button>

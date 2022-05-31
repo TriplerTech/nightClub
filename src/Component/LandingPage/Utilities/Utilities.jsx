@@ -28,23 +28,23 @@ const Utilities = () => {
                {/* table// */}
                 <section className='utilites-table'>
                <Row className='m-0 p-0 g-2 '>
-                   <Col className='col-4'>
+                   <Col className='col-0 d-none d-md-block col-md-4'>
                        <div className='empy-table-box'>
                        </div>
                    </Col>
-                   <Col className='col-2'>
+                   <Col className='col-3 col-md-2'>
                        <div className='table-box '>
                        </div>
                    </Col>
-                   <Col className='col-2'>
+                   <Col className='col-md-2 col-3'>
                        <div className='table-box'>
                        </div>
                    </Col>
-                   <Col className='col-2'>
+                   <Col className='col-md-2 col-3'>
                        <div className='table-box'>
                        </div>
                    </Col>
-                   <Col className='col-2'>
+                   <Col className='col-md-2 col-3'>
                        <div className='table-box'>
                        </div>
                    </Col>
@@ -112,7 +112,7 @@ const Utilities = () => {
                        <div className='table-box'>
                            <img className='boxIcon img-fluid' src={icon2} alt="" />
                            <p className='box-text px-2 ps-5'>
-                           NFT clubbing welcone reward (in $NKG)*
+                           NFT clubbing welcome reward (in $NKG)*
                            </p>
                        </div>
                    </Col>

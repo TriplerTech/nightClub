@@ -12,9 +12,85 @@
     filter: blur(50px);
     z-index: -1;
 }
+  .meetimg-mobile{
+    display: none;
+}
 @media screen and (max-width:768px){
     .reverse-section{
         display: flex;
         flex-direction: column-reverse;
     }
+    .meetimg{
+    display: none;
+    }
+    .meetimg-mobile{
+        display: block;
+    }
+}
+.play-thevideo-btn{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    outline: none;
+    padding: 10px;
+    border: none;
+    background-color: #ffc4035b;
+    background: linear-gradient(180deg, #ffc4037d 0%, #ff7b00a7 100%);
+    margin-top: -30%;
+    margin-bottom: 25%;
+}
+.play-icon{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 35px;
+    background: linear-gradient(180deg, #FFC603 0%, #FF7C00 100%);
+    padding: 30px;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.modal-video{
+
+}
+@media only screen and (max-width:520px) {
+    .play-thevideo-btn{
+    
+}
+    .play-icon{
+        font-size: 30px;
+        padding: 25px;
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+     
+    }
+}
+@media only screen and (max-width:490px) {
+    .play-thevideo-btn{
+        top: -35px;
+    }
+    .play-icon{
+        font-size: 25px;
+        padding: 18px;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+     
+    }
+}
+@media only screen and (max-width:410px) {
+    .play-thevideo-btn{
+        top: -30px;
+    }
+}
+@media only screen and (max-width:355px) {
+    .play-thevideo-btn{
+        top: -25px;
+    }
+}
+.css-1bm7ept{
+    min-width: 320px !important;
+    padding: 0 !important;
 }
