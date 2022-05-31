@@ -1,27 +1,28 @@
+@import url(//db.onlinewebfonts.com/c/f97225822a70757425b37ccb7fb0ca5c?family=BrownStd);
 .video-intro{
     padding-top: 82px;
 }
-.mainHeading{
-    font-family: "Brownstd";
+.mainHeading, .subHeading{
+    font-family: "Brownstd" sans-serif;
     text-transform: uppercase;
+}
+.mainHeading{  
     font-size: 40px;
 }
 .subHeading{
-    font-family: "Brownstd";
-    text-transform: uppercase;
     font-size: 36px
 }
 .video-wraper{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    margin-top: 20px;
-    z-index: 2;
+    /* position: relative; */
+    /* margin-top: 20px; */
+    /* z-index: 2; */
 }
 .modal-video{
-    width:800px;
-    height: 560px;
+    width:100%;
+    height: 100%;
     position: relative;
     /* background-image: url('../../assets/videoTham.png'); */
 }
