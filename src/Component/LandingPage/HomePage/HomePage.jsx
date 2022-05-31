@@ -52,6 +52,7 @@ const HomePage = () => {
                                  playsInline
                                  loop
                                  controls
+                                 muted
                                  alt="All the devices"
                                  src={demovideo}
                                  ref={videoEl}
