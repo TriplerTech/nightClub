@@ -89,7 +89,7 @@ const MeetWithClub = () => {
                  In NKG metaverse, you will surround yourself with gorgeous models and lifelong friends while enjoying intoxicated evenings at the top nightclub metaverse.
                  </p>
                  <p className='px-md-5 mx-md-5'>
-                   The NKG metaverse governance token $NKG can be used to purchase valuable in-metaverse NFTs or be used at our in-person events for special services 
+                   The NKG metaverse governance token $NKG can be used to purchase valuable in-metaverse NFTs or be used at our in-person events for special services 😉 
                  </p>
              </div>
                 </Container>

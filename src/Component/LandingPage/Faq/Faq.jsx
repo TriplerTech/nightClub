@@ -109,8 +109,9 @@ const Faq = () => {
              </AccordionSummary>
              <AccordionDetails>
                <Typography className='text-start ps-md-4 ms-md-3 questionAnswer'>
-               The minting process will be completed in two phases. 
-Minting costs will depend on which pool you would like to get your membership NFT from. In general, the higher the cost, the more valuable your membership NFT. 
+               The minting process will be completed in two phases. <br />
+Minting costs will depend on which pool you would like to get your membership NFT from. <br />
+In general, the higher the cost, the more valuable your membership NFT. 
               </Typography>
              </AccordionDetails>
          </Accordion>

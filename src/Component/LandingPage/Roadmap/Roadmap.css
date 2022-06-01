@@ -32,7 +32,7 @@
 }
 .ul-element li{
     display: flex;
-    line-height: 1;
+    line-height:1.2;
 }
 .ul-element img{
     height: 22px !important;
@@ -46,6 +46,9 @@
 }
 .desktop-visibility{
     display: none;
+}
+.parseNO3{
+    min-width: 80px;
 }
 @media only screen and (max-width:768px) {
     .mobile-visibility{

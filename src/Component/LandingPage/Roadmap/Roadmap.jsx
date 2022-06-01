@@ -24,12 +24,12 @@ const Roadmap = () => {
                         <Col className="col-12 col-md-5">
                             <div className='topPase'>
                                 <ul className='ul-element'>
-                                    <p className='paseHeading'>Pase 1</p>
-                                    <li><img className='img-fluid pe-2' src={check} alt="" /> <p>Initial OG pass minting launch</p> </li>
-                                    <li><img className='img-fluid pe-2' src={check} alt="" /> <p>Official membership NFT minting launch</p> </li>
-                                    <li><img className='img-fluid pe-2' src={check} alt="" /> <p>Opensea NFT listing</p></li>
-                                    <li><img className='img-fluid pe-2' src={check} alt="" /> <p>Release of $NKG governance token</p></li>
-                                    <li><img className='img-fluid pe-2' src={check} alt="" /> <p>NFT clubbing function complete</p></li>
+                                    <p className='paseHeading'>Phase 1</p>
+                                    <li> <p>Initial OG pass minting launch</p> </li>
+                                    <li> <p>Official membership NFT minting launch</p> </li>
+                                    <li> <p>Opensea NFT listing</p></li>
+                                    <li> <p>Release of $NKG governance token</p></li>
+                                    <li> <p>NFT clubbing function complete</p></li>
                                 </ul>
                                  <div className='p-md-4 mt-md-4 pt-md-5'>
                                  <img className='parseNO1 p-2 pt-md-2' src={p1} alt="" />
@@ -42,10 +42,10 @@ const Roadmap = () => {
                         <Col className="col-12 col-md-5 desktop-visibility">
                             <div className='topPase me-md-3'>
                                 <ul className='ul-element'>
-                                <p className='paseHeading'>Pase 2</p>
-                                    <li><img className='img-fluid pe-2' src={check} alt="" /> <p>Epic launch party for OG membership NFT holders</p> </li>
-                                    <li><img className='img-fluid pe-2' src={check} alt="" /> <p>Exclusive model NFTs drop to holders with 2 membership NFTs</p> </li>
-                                    <li><img className='img-fluid pe-2' src={check} alt="" /> <p>Announce first wave of partners </p></li>
+                                <p className='paseHeading'>Phase 2</p>
+                                    <li><p>Epic launch party for OG membership NFT holders</p> </li>
+                                    <li><p>Exclusive model NFTs drop to holders with 2 membership NFTs</p> </li>
+                                    <li><p>Announce first wave of partners </p></li>
                                 </ul>
                                  <div className='p-4 pt-5'>
                                  <img className='parseNO2' src={p2} alt="" />
@@ -62,11 +62,11 @@ const Roadmap = () => {
                         </Col>
                         <Col className="col-12 col-md-5">
                           <div className='topPase mt-md-5 pt-md-3 ms-md-4'>
-                               <img className='parseNO parseNO3 ms-md-3 p-md-1 mt-md-5 mobile-visibility' src={p3} alt="" />
-                                <ul className='ul-element'>
-                                <p className='paseHeading'>Pase 3</p>
-                                    <li><img className='img-fluid pe-2' src={check} alt="" /><p> Legendary party invitation for all top $NKG token and NFT holders </p></li>
-                                    <li><img className='img-fluid pe-2' src={check} alt="" /><p> Announce second wave of partners</p></li>                        
+                               <img className='parseNO parseNO3 ms-md-3 p-md-0 mt-md-4 pt-md-3 mobile-visibility' src={p3} alt="" />
+                                <ul className='ul-element ps-md-4'>
+                                <p className='paseHeading'>Phase 3</p>
+                                    <li><p> Legendary party invitation for all top $NKG token and NFT holders </p></li>
+                                    <li><p> Announce second wave of partners</p></li>                        
                                 </ul>
                                 <img className='parseNO  ms-3 desktop-visibility' src={mp3} alt="" />
                             </div>
@@ -83,10 +83,10 @@ const Roadmap = () => {
                         <Col className="col-12 col-md-5 mobile-visibility">
                             <div className='topPase me-md-3'>
                                 <ul className='ul-element'>
-                                <p className='paseHeading'>Pase 2</p>
-                                    <li><img className='img-fluid pe-2' src={check} alt="" /> <p>Epic launch party for OG membership NFT holders</p> </li>
-                                    <li><img className='img-fluid pe-2' src={check} alt="" /> <p>Exclusive model NFTs drop to holders with 2 membership NFTs</p> </li>
-                                    <li><img className='img-fluid pe-2' src={check} alt="" /> <p>Announce first wave of partners </p></li>
+                                <p className='paseHeading'>Phase 2</p>
+                                    <li><p>Epic launch party for OG membership NFT holders</p> </li>
+                                    <li><p>Exclusive model NFTs drop to holders with 2 membership NFTs</p> </li>
+                                    <li><p>Announce first wave of partners </p></li>
                                 </ul>
                                  <div className='p-4 pt-md-4'>
                                  <img className='parseNO2 ' src={p2} alt="" />
@@ -106,10 +106,10 @@ const Roadmap = () => {
                                  <img className='parseNO4 mobile-visibility' src={p4} alt="" />
                                  </div>
                                 <ul className='ul-element'>
-                                <p className='paseHeading'>Pase 4</p>
-                                    <li><img className='img-fluid pe-2' src={check} alt="" /> <p>Legendary party invitation for all top $NKG token and NFT holders</p> </li>
-                                    <li><img className='img-fluid pe-2' src={check} alt="" /> <p>Metaverse alpha launch</p> </li>
-                                    <li><img className='img-fluid pe-2' src={check} alt="" /> <p>Announce third wave of partners</p></li>
+                                <p className='paseHeading'>Phase 4</p>
+                                    <li> <p>Legendary party invitation for all top $NKG token and NFT holders</p> </li>
+                                    <li> <p>Metaverse alpha launch</p> </li>
+                                    <li> <p>Announce third wave of partners</p></li>
                                 </ul>
                                <div className='desktop-visibility'>
                                <img className='parseNO4' src={mp4} alt="" />
