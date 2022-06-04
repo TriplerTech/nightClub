@@ -3,7 +3,9 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Footer from '../Shared/Footer/Footer';
 import Navigation from '../Shared/Navigation/Navigation';
 import './Mint.css';
-import scn from '../assets/Mint/scn.png'
+import video1 from '../video/video1.mp4'
+import video2 from '../video/video2.mp4'
+import video3 from '../video/video3.mp4'
 import chart1 from '../assets/Mint/chart1.png'
 import chart2 from '../assets/Mint/chart2.png'
 import scn3 from '../assets/Mint/scn3.png'
@@ -106,14 +108,21 @@ const Mint = () => {
            <div className='p-md-5'>
            <div className='chartCard p-md-5 m-md-5 p-3'>
             <p className='text-yellow fs-3'>Pool Consist of</p>
-                <div className='scn-part'>
-                    <img src={scn} alt="" />
+                <div className='scn-part chart-even'>
+                    {/* <img src={scn} alt="" /> */}
+                    <video
+                    className="video ms-md-5"
+                    autoPlay
+                    muted
+                    controls={false}
+                    loop={true}
+                    src={video1}></video>
                 </div>
                 <div>
                     <Row>
-                        <Col className='col-md-4 col-12'>
-                           <div className='text-start pricing '>
-                           <h4 className='text-yellow'>LUCKY <br /> OG POOL</h4>
+                        <Col className='col-md-4 col-12 ps-md-5'>
+                           <div className='text-start pricing ms-md-5'>
+                           <h4 className='text-yellow fs-4'>LUCKY <br /> OG POOL</h4>
                             <p>Mint Price: 0.25ETH</p>
                             <b>Total : 1420</b>
                            </div>
@@ -121,18 +130,19 @@ const Mint = () => {
                     
                       <Col className='col-md-4 col-6 chart-wraper'>
                             <img className='chart-style' src={chart1} alt="" />
+                            
                         </Col>
 
                         <Col className='col-md-4 col-6'>
-                            <div>
+                            <div className='me-md-5 pe-md-5'>
                                 <div className='text-end pe-md-5'>
-                                    <p className='fs-md-2 fs-4'>OG Legendary</p>
+                                    <p className='fs-4'>OG Legendary</p>
                                     <div className='space-between text-end'>
                                         <p className='text-yellow fs-md-2 fs-5 pe-3 pe-md-4 fw-bold'>2%</p>
                                         <p className='ps-md-5 ms-md-5 ps-5 fs-md-3 fs-md-5'>(20)</p>
                                     </div>
                                 </div>
-                                <div className='text-end pe-md-5'>
+                                <div className='text-end pe-md-5 my-md-5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    '>
                                     <p className='fs-md-2 fs-4'>OG Mythical</p>
                                     <div className='space-between'>
                                         <p className='text-yellow fs-md-2 fs-5 fw-bold'>14%</p>
@@ -169,17 +179,18 @@ const Mint = () => {
                       <Col className='col-md-4 col-6 chart-wraper'>
                       <p className='text-yellow fs-3'>Pool Consist of</p>
                             <img className='chart-style pb-5 pb-md-0' src={chart2} alt="" />
+                           
                         </Col>
                         <Col className='col-md-4 col-6'>
-                            <div className='second-card-point'>
+                            <div className='second-card-point me-md-5 my-md-4 my-5'>
                                 <div className='text-end pe-md-5'>
-                                    <p className='fs-md-2 fs-4'>OG Legendary</p>
+                                    <p className='fs-4'>OG Legendary</p>
                                     <div className='space-between'>
                                         <p className='text-yellow fs-md-2 fs-5 fw-bold'>2%</p>
                                         <p className='ps-md-5 ms-md-5 ps-5 fs-md-3 fs-5'>(30)</p>
                                     </div>
                                 </div>
-                                <div className='text-end pe-md-5'>
+                                <div className='text-end pe-md-5 second-parse'>
                                     <p className='fs-md-2 fs-4'>OG Mythical</p>
                                     <div className='space-between'>
                                         <p className='text-yellow fs-md-2 fs-5 fw-bold'>98%</p>
@@ -191,7 +202,7 @@ const Mint = () => {
                         </Col>
                         <Col className='col-md-4 col-12 ps-md-5 mt-5 mt-md-0'>
                            <div className='text-start pricing '>
-                           <h4 className='text-yellow'>LUCKY <br /> OG POOL</h4>
+                           <h4 className='text-yellow fs-4'>LUCKY <br /> OG POOL</h4>
                             <p>Mint Price: 0.25ETH</p>
                             <b>Total : 1420</b>
                            </div>
@@ -199,8 +210,16 @@ const Mint = () => {
                     
                     </Row>
                 </div>
-                <div className='scn-part2'>
-                    <img src={scn2} alt="" />
+                <div className='scn-part2 me-md-4'>
+                    {/* <img src={scn2} alt="" /> */}
+                    <video
+                    className="video"
+                    autoPlay
+                    muted
+                    controls={false}
+                    loop={true}
+                    src={video2}>
+                    </video>
                 </div>
             </div>
             <button className='minit-now-btn'>MINIT NOW</button>
@@ -214,14 +233,22 @@ const Mint = () => {
            <div className='p-md-5'>
            <div className='chartCard p-md-5 m-md-5 p-3'>
             <p className='text-yellow fs-3'>Pool Consist of</p>
-                <div className='scn-part'>
-                    <img src={scn3} alt="" />
+                <div className='scn-part chart-even'>
+                    {/* <img src={scn3} alt="" /> */}
+                    <video
+                    className="video"
+                    autoPlay
+                    muted
+                    controls={false}
+                    loop={true}
+                    src={video3}>
+                    </video>
                 </div>
                 <div>
                     <Row>
                         <Col className='col-md-4 col-12'>
-                           <div className='text-start pricing '>
-                           <h4 className='text-yellow'>MYTHICAL <br /> OG POOL</h4>
+                           <div className='text-start pricing ps-md-5'>
+                           <h4 className='text-yellow fs-4'>MYTHICAL <br /> OG POOL</h4>
                             <p>Mint Price: 0.8ETH</p>
                             <b>Total : 630</b>
                            </div>
@@ -233,7 +260,7 @@ const Mint = () => {
 
                         <Col className='col-md-4 col-6'>
                             <div className='third-chart-point'>
-                                <div className='text-end pe-md-5'>
+                                <div className='text-end pe-md-5 me-md-5'>
                                     <p className='fs-md-2 fs-4'>OG Legendaryl</p>
                                     <div className='space-between'>
                                         <p className='text-yellow fs-md-2 fs-5 fw-bold'>100%</p>
@@ -262,7 +289,7 @@ const Mint = () => {
                         </Col>
                         <Col className='col-md-4 col-6'>
                         <div className='third-chart-point'>
-                                <div className='text-end pe-md-5'>
+                                <div className='text-end pe-md-5 me-md-5 mt-md-5'>
                                     <p className='fs-md-2 fs-4'>OG Legendary</p>
                                     <div className='space-between'>
                                         <p className='text-yellow fs-md-2 fs-5 fw-bold'>100%</p>
@@ -273,7 +300,7 @@ const Mint = () => {
                         </Col>
                         <Col className='col-md-4 col-12 ps-md-5 mt-5 mt-md-0'>
                            <div className='text-start pricing '>
-                           <h4 className='text-yellow'>Founding<br /> OG POOL</h4>
+                           <h4 className='text-yellow fs-4'>Founding<br /> OG POOL</h4>
                             <p>Mint Price:? ETH</p>
                             <b>Total : 91</b>
                            </div>
@@ -282,8 +309,16 @@ const Mint = () => {
                     </Row>
                     <p className='text-start mt-5'>*Celebrties , Influencers , Top Traders , and Advisors</p>
                 </div>
-                <div className='scn-part2'>
-                    <img src={scn3} alt="" />
+                <div className='scn-part2 me-md-5'>
+                    {/* <img src={scn3} alt="" /> */}
+                    <video
+                    className="video"
+                    autoPlay
+                    muted
+                    controls={false}
+                    loop={true}
+                    src={video3}>
+                    </video>
                 </div>
             </div>
             <button className='minit-now-btn'>MINIT NOW</button>
